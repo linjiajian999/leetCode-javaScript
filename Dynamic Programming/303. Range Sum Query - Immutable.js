@@ -8,7 +8,6 @@ var NumArray = function(nums) {
   for (let i = 0; i < nums.length; i++) {
     this.sumList[i] = sum += nums[i];
   }
-  console.log(this.sumList);
 };
 
 /**

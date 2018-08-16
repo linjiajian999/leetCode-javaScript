@@ -12,3 +12,11 @@ var reverseStr = function(s, k) {
   }
   return res;
 };
+var reverseStr = function(s, k) {
+  let res = '';
+  let i = 0;
+  while (i < s.length) {
+    res += s.substring(i, i + k).split('').reverse().join('') + s.substring(i + k, i = i + 2 * k);
+  }
+  return res;
+};

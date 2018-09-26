@@ -29,3 +29,4 @@ isValid('()');
 isValid('([)]');
 isValid('{[]}');
 isValid('');
+isValid('((');
